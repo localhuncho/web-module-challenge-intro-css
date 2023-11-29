@@ -1,0 +1,108 @@
+body {
+  font-family: "Roboto Mono";
+}
+
+h1 {
+  font-family: "Chelsea Market";
+}
+
+header {
+  text-align: center;
+}
+
+.headerContainer {
+  display: flex;
+  text-align: center;
+  margin-left: 15%;
+  margin-right: 10%;
+  margin-top: 40px;
+}
+
+.headerTextContainer {
+}
+
+.mainBody1 {
+  color: white;
+  text-align: center;
+  margin-left: 1.5%;
+  margin-right: 1.5%;
+}
+
+.mainBody2 {
+  text-align: center;
+}
+
+.mainBody3 {
+  text-align: center;
+}
+
+.headNav {
+  text-align: center;
+  font-family: "Roboto Mono";
+}
+
+.planYourVisit {
+  color: white;
+  background-color: #ff764e;
+  font-family: "Roboto Mono";
+  padding: 10px 20px;
+  border-radius: 10px;
+  text-decoration: none;
+  margin: 50px;
+}
+
+.learnAboutThePark {
+  color: white;
+  background-color: #5ed3eb;
+  font-family: "Roboto Mono";
+  padding: 10px 20px;
+  border-radius: 10px;
+  text-decoration: none;
+  margin: 50px;
+}
+
+.getInvolved {
+  color: white;
+  background-color: #ffcd69;
+  font-family: "Roboto Mono";
+  padding: 10px 20px;
+  border-radius: 10px;
+  text-decoration: none;
+  margin: 50px;
+}
+
+.headImg {
+  width: 150px;
+  height: auto;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+p {
+  border-radius: 100px auto;
+}
+
+img.campFire {
+  width: 150px;
+  height: auto;
+}
+
+img.camper {
+  width: 150px;
+  height: auto;
+}
+
+img.footerImg {
+  width: 100%;
+  height: 200px;
+}
+
+.mainBody1 {
+  background-color: #ddb9a3;
+}
+
+.footNav {
+  height: 100px;
+  background-color: #f9e7dc;
+  text-align: center;
+}
