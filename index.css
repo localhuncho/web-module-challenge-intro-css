@@ -1,9 +1,11 @@
+
 body {
   font-family: "Roboto Mono";
 }
 
 h1 {
   font-family: "Chelsea Market";
+  font-size:3rem;
 }
 
 header {
@@ -18,9 +20,6 @@ header {
   margin-top: 40px;
 }
 
-.headerTextContainer {
-}
-
 .mainBody1 {
   color: white;
   text-align: center;
@@ -29,46 +28,45 @@ header {
 }
 
 .mainBody2 {
+  width: 30%;
+  margin: auto;
   text-align: center;
 }
 
 .mainBody3 {
+  width: 30%;
+  margin: auto;
   text-align: center;
 }
 
 .headNav {
+  margin: auto;
+  width: 80%;
+  margin-top: 2rem;
   text-align: center;
   font-family: "Roboto Mono";
+  display: flex;
+  justify-content: space-around;
+}
+
+.headNav a {
+  color: white;
+  font-family: "Roboto Mono";
+  border-radius: 10px;
+  text-decoration: none;
+  padding: 1rem;
 }
 
 .planYourVisit {
-  color: white;
   background-color: #ff764e;
-  font-family: "Roboto Mono";
-  padding: 10px 20px;
-  border-radius: 10px;
-  text-decoration: none;
-  margin: 50px;
 }
 
 .learnAboutThePark {
-  color: white;
   background-color: #5ed3eb;
-  font-family: "Roboto Mono";
-  padding: 10px 20px;
-  border-radius: 10px;
-  text-decoration: none;
-  margin: 50px;
 }
 
 .getInvolved {
-  color: white;
   background-color: #ffcd69;
-  font-family: "Roboto Mono";
-  padding: 10px 20px;
-  border-radius: 10px;
-  text-decoration: none;
-  margin: 50px;
 }
 
 .headImg {
@@ -102,7 +100,20 @@ img.footerImg {
 }
 
 .footNav {
-  height: 100px;
-  background-color: #f9e7dc;
+  margin: auto;
+  width: 100%;
   text-align: center;
+  font-family: "Roboto Mono";
+  display: flex;
+  padding: 2.5%;
+  justify-content: space-around;
+  background-color: #f9e7dc;
+}
+
+.footNav a {
+  color: white;
+  font-family: "Roboto Mono";
+  border-radius: 10px;
+  text-decoration: none;
+  padding: 1rem;
 }
